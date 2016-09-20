@@ -2,9 +2,10 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Sign up page for AnalogSea.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>AnalogSea - Sign up</title>
 </head>
 <body>
 
@@ -16,23 +17,23 @@
     <main>
         <h1 class="login-label">Sign up</h1>
 
-        <form>
+        <form action="/signup/" method="POST">
             <fieldset>
                 <label for="email" type="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="foo@bar.com">
+                <input type="email" name="email" id="email" placeholder="foo@bar.com" required>
 
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="1234passw0rd">
+                <input type="password" name="password" id="password" placeholder="1234passw0rd" required>
             </fieldset>
 
             <button type="submit">Sign up</button>
         </form>
-        <a href="" class="forgot-password">Forgot password?</a>
+        <a href="/forgot-password/new" class="forgot-password">Forgot password?</a>
 
     </main>
 
     <footer>
-        <span>Already have an account? <a href="">Log in</a></span>
+        <span>Already have an account? <a href="/login">Log in</a></span>
     </footer>
 </div>
 
