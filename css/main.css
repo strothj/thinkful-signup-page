@@ -21,7 +21,7 @@ header {
 }
 
 header img {
-    height: 75px;
+    height: 35px;
 }
 
 main {
@@ -88,7 +88,7 @@ form button, input {
     display: block;
     text-align: center;
     font-size: 14px;
-    font-weight: 600;
+    /*font-weight: 600;*/
 }
 
 footer {
